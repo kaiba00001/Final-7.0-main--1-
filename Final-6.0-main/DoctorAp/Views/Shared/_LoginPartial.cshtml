@@ -24,17 +24,11 @@
                             }
                             @if (User.IsInRole("Admin"))
                             {
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="AppRoles" asp-action="Index">Roles</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="ScreenLeads" asp-action="Index"> Screening</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="PrescriptionLead" asp-action="Index">Prescriptions</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="ItemsLeads" asp-action="Index">Order Supplies</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Stocks">Stocks</a> </li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="StockTrackerLeads" asp-action="Index">Stock Tracker</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="LabResults" asp-action="Index">LabResults</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="EmployeePayrolls" asp-action="Index">EmployeePayrolls</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="MedicineReports" asp-action="Index">MedicineReports</a> </li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Links">Contact Info</a></li>
-                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Rooms" asp-action="Index">Rooms</a></li>
+                              <li><a class="nav-link text-dark" asp-area="" asp-controller="AppRoles" asp-action="Index">Roles</a></li>
+                              <li><a class="nav-link text-dark" asp-area="" asp-controller="ItemsLeads" asp-action="Index">Pharmacy</a></li>
+                              <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Stocks">Stocks</a> </li>
+                              <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Links">Contact Info</a></li>
+                              <li><a class="nav-link text-dark" asp-area="" asp-controller="Rooms" asp-action="Index">Rooms</a></li>
                             }
                         </ul>
                     </div>
